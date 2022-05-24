@@ -1,0 +1,211 @@
+/*
+Rojo logo: f43834
+Celeste logo: 5cbeff
+Gris navbar y footer: 383331 (editado)
+[18:48]
+Fondo: EEEEEE
+*/
+
+/* Body. ------------------------------------------------------------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cuerpo {
+    background-color: Silver;
+    font-family: "Montserrat", sans-serif;
+    color: Black;
+}
+
+.parrafo {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.negro {
+    color: Black;
+}
+
+.blanco {
+    color: White;
+}
+
+/* Nav. ------------------------------------------------------------------------------------------- */
+
+#cabecera {
+    width: 100%;
+    height: 100px;
+    background-color: White;
+}
+
+#navegacion {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 100px;
+    background-color: #f43834;
+}
+
+.container_left {
+    width: 200px;
+    height: 100px;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+}
+
+.container_right {
+    width: 80%;
+    height: 100px;
+}
+
+.container_top {
+    width: 100%;
+    height: 50px;
+}
+
+.container_lupa {
+    width: 30px;
+    height: 30px;
+    background-color: White;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.container_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    height: 50px;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+#buscar {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-right: 1px solid Grey;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.desordenada {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    height: 50px;
+}
+
+.item,
+.item_footer {
+    display: block;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+    height: 50px;
+}
+
+.item:hover {
+    background-color: Darkred;
+}
+
+.item_footer:hover {
+    background: #609f9f;
+}
+
+.ancla {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: White;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ancla_lupa {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+}
+
+/* Main. ------------------------------------------------------------------------------------------ */
+
+#principal {
+    width: 100%;
+    height: 1000px; /* auto */
+}
+/* Footer. ---------------------------------------------------------------------------------------- */
+
+#pie {
+    width: 100%;
+    height: 100px;
+    background-color: Darkslategrey;
+}
+
+.container_top_footer,
+.container_bottom_footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 50px;
+}
+
+.container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 50%;
+    height: 50px;
+}
+
+.container_copyright {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 50%;
+    height: 50px;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
